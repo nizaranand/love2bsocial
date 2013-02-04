@@ -36,7 +36,9 @@ and copy the protected folder from \xampp\htdocs\love2bsocial to
 This way our application files are not accessible from the web because they are
 outside the webroot folder.
 Following these instructions and keeping this directory structure you should not
-have to change any of the configuration other then the database.
+have to change any of the configuration other then the database and the index.php
+entry script in your webroot folder to point correctly to the Yii framework folder
+and the protected application folder.
 
 Then using Git you can do a pull using the following:
 Using http: https://github.com/rodwebdesign/love2bsocial.git
