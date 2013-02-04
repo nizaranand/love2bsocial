@@ -11,10 +11,12 @@ My directory structure is as follows:
 \xampp\love2bsocial\protected (application folder)
 \xampp\love2bsocial\framework (yii framework folder)
 
-Please Note: make sure you edit C:\xampp\love2bsocial\protected\config\main.php and edit the
+Please Note: make sure you edit \xampp\love2bsocial\protected\config\main.php and edit the
 database connection info with your MySQL database connection info. Also if using a different
 directory structure then above make sure you edit the main entry script index.php in your
-webroot folder.
+webroot folder and you may also need to edit some other configuration files to get the unit
+tests to work. I use PHPUnit for the unit testing and I assume you have PHPUnit installed
+and working properly. https://github.com/sebastianbergmann/phpunit
 
 I assume you know how to setup xampp and configure it properly, setup a MySQL
 database, and have some experience using the Yii framework.
